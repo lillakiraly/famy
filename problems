@@ -1,0 +1,6 @@
+First, padding before the navbar and weird background behind the links - cannot remove 
+    - solution: removed background-color from the * selector and put it into the body selector.
+Second, how to make the whole svg clickable , not just the strokes and outline
+Third, svgs keep their space (padding like) even if I set a max-width
+Fourth, couldn't change the svgs' colors when :hover
+    - solution: had to put path:hover
