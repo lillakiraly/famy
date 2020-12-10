@@ -14,6 +14,7 @@ html {
     height: 50px;
     background-color: #FFF;
     position: fixed;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.08);
     z-index: 8;
 }
 .famy-logo-img {
@@ -69,10 +70,10 @@ html {
     width: 1180px;
     height: 500px;
     position: absolute;
-    top: 50%;
-    left: 47%;
-    transform: translate(-50%,-50%);
-    
+    top: 130px;
+    left: 120px;
+
+
 }
 .girl-1-img {
     width: 400px;
@@ -108,11 +109,10 @@ html {
 }
 .blue-line {
     background-color:#415C8C;
-    position: absolute;
-    overflow: hidden;
+    position: relative;
     width: 700px;
     height: 14px;
-    left: 800px;
+    left: 650px;
     bottom: 150px;
     transform: rotate(-20deg);
 }
