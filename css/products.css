@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: #D0EDF1;
+    box-sizing: border-box;
+}
+
+/* ||Header */
+
+.nav-container {
+    width: 100%;
+    height: 50px;
+    background-color: #FFF;
+    position: fixed;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.08);
+    z-index: 8;
+}
+.famy-logo-img {
+    position: absolute;
+    left: 32px;
+    max-width: 37px;
+    height: auto;
+}
+.famy-logo-name a {
+    text-decoration: none;
+    color: black;
+    /*middle part doesn't link*/
+}
+.famy-logo-name {
+    font-size: 29px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 0 0 60px;
+    padding: 8px 0 0 0;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.nav-ul {
+    position: relative;
+    bottom: 27px;
+    right: 25px;
+    text-align: right;
+}
+.nav-li {
+    display: inline-block;
+    margin: 0 50px 0 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+.nav-li a {
+    text-decoration: none;
+    color: black;
+}
+.nav-li a:visited {
+    color: black;
+}
+.nav-li a:hover {
+    border-bottom: 4px solid #415C8C;
+}
+.nav-li a:active {
+    border-bottom-color: #080b11;
+}
+
+/* || Main */
+
+section {
+    background-color: white;
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    top: 130px;
+    margin: auto;
+    display: flex;
+}
+.girl-3-img {
+    height: inherit;
+    width: auto;
+}
+.product {
+    padding: 30px 100px 0 50px;
+}
+.product-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+.product-p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+    margin-bottom: 60px;
+}
+.product-price {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 33px;
+    margin-bottom: 20px;
+}
+.product-sold-out {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    display: inline-block;
+    border-bottom: 8px solid #D0EDF1;
+    line-height: 17px;
+}
+.lavender-deco {
+    float: right;
+    position: relative;
+    bottom: 20px;
+    right: 140px;
+}
+
+/* || Footer */
+
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: #415C8C;
+    display: inline-block;
+    margin-top: 50px;
+   /* overflow: hidden;*/
+    
+}
+.footer-end {
+    position: relative;
+    width: 370px;
+    margin: auto;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.copyright {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+.socials {
+    position: relative;
+    bottom: 5px;
+    width: 100px;
+    float: right;
+}
+.socials-list {
+    display: flex;
+    list-style: none;
+}
+.footer-svg {
+    padding: 0 13px 0 0;
+}
+.footer-svg path:hover {
+    fill: black;
+}
+
