@@ -109,6 +109,7 @@ section {
     display: inline-block;
     border-bottom: 8px solid #D0EDF1;
     line-height: 17px;
+    cursor: not-allowed;
 }
 .lavender-deco {
     float: right;
