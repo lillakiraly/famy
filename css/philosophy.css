@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: #D0EDF1;
+    box-sizing: border-box;
+}
+
+/* ||Header */
+
+.nav-container {
+    width: 100%;
+    height: 50px;
+    background-color: #FFF;
+    position: fixed;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.08);
+    z-index: 8;
+}
+.famy-logo-img {
+    position: absolute;
+    left: 32px;
+    max-width: 37px;
+    height: auto;
+}
+.famy-logo-name a {
+    text-decoration: none;
+    color: black;
+    /*middle part doesn't link*/
+}
+.famy-logo-name {
+    font-size: 29px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 0 0 60px;
+    padding: 8px 0 0 0;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.nav-ul {
+    position: relative;
+    bottom: 27px;
+    right: 25px;
+    text-align: right;
+}
+.nav-li {
+    display: inline-block;
+    margin: 0 50px 0 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+.nav-li a {
+    text-decoration: none;
+    color: black;
+}
+.nav-li a:visited {
+    color: black;
+}
+.nav-li a:hover {
+    border-bottom: 4px solid #415C8C;
+}
+.nav-li a:active {
+    border-bottom-color: #080b11;
+}
+
+/* ||Main */
+
+main {
+    position: relative;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    top: 80px;
+
+}
+.img-container{
+    width:710px;
+    margin: auto; 
+}
+.deco-line-blue {
+    background-color:#415C8C;
+    position: absolute;
+    width: 400px;
+    height: 14px;
+    transform: rotate(-40deg);
+    right: 550px;
+    z-index: -1;
+}
+.girl-4-img {
+    width: 700px;
+    height: auto;
+}
+.deco-line-1 {
+    position: relative;
+    width: 10px;
+    height:190px;
+    background-color: white;
+    float: right;
+    top: 280px;
+    right: 5px;
+}
+.deco-line-2 {
+    position: relative;
+    width: 120px;
+    height: 10px;
+    background-color: white;
+    float: right;
+    bottom: 10px;
+    right: 5px;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    margin: 30px 0 30px 0;
+}
+.philosophy-underline {
+    border-bottom: 8px solid white;
+    display: inline-block;
+    line-height: 20px;
+}
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    padding: 0 120px;
+    line-height: 32px;
+}
+.lavender-deco-gold {
+    position: relative;
+    float: right;
+    bottom: 130px;
+    left: 70px;
+}
+
+/* ||Footer */
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: #415C8C;
+    display: inline-block;
+    margin-top: 50px;
+   /* overflow: hidden;*/
+    
+}
+.footer-end {
+    position: relative;
+    width: 610px;
+    margin: auto;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.copyright {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+.socials {
+    position: relative;
+    bottom: 18px;
+    width: 100px;
+    float: right;
+}
+.socials-list {
+    display: flex;
+    list-style: none;
+}
+.footer-svg {
+    padding: 0 13px 0 0;
+}
+.footer-svg path:hover {
+    fill: black;
+}
+
