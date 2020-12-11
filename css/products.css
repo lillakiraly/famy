@@ -86,6 +86,13 @@ section {
     font-size: 45px;
     margin-bottom: 15px;
 }
+.gold-deco {
+    display: inline-block;
+    border-top: 8px solid #e9d98a;
+    border-right: 8px solid #e9d98a;
+    line-height: 32px;
+    padding: 5px 5px 3px 0;
+}
 .product-p {
     font-family: 'Raleway', sans-serif;
     font-size: 19px;
