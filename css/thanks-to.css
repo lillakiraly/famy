@@ -62,3 +62,104 @@ html {
 .nav-li a:active {
     border-bottom-color: #080b11;
 }
+
+/* ||Main */
+
+.thanks-to {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    display: inline-block;
+    position: relative;
+    top: 140px;
+    left: 190px;
+}
+.thanks-to-underline {
+    border-bottom: 8px solid white;
+    display: inline-block;
+    line-height: 20px;
+}
+
+.container {
+    background-color: white;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    top: 200px;
+    right: 60px;
+    border-left: 8px solid #e9d98a;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    padding-top: 10px;
+    margin: 0 0 0 20px;
+}
+p {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 0 0 20px;
+}
+.anna-shvets-website {
+    font-family: 'Montserrat' ,sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    position: relative;
+    top: 70px;
+    border-bottom: 5px solid #415C8C;
+    display: inline-block;
+    line-height: 10px;
+}
+.anna-shvets-website:hover {
+    border-bottom-color: #D0EDF1;
+}
+.anna-shvets-website:active {
+    border-bottom-color: #415C8C;
+}
+.lavender-deco-black {
+    position: absolute;
+    left: 400px;
+}
+
+/* ||Footer */
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: #415C8C;
+    display: inline-block;
+    margin-top: 50px;
+    position: relative;
+    top: 320px;
+    /*overflow: hidden;*/
+    
+}
+.footer-end {
+    position: relative;
+    width: 510px;
+    margin: auto;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.copyright {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+.socials {
+    position: relative;
+    bottom: 6px;
+    width: 100px;
+    float: right;
+}
+.socials-list {
+    display: flex;
+    list-style: none;
+}
+.footer-svg {
+    padding: 0 13px 0 0;
+}
+.footer-svg path:hover {
+    fill: black;
+}
+
