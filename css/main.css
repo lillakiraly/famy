@@ -72,8 +72,6 @@ html {
     position: absolute;
     top: 130px;
     left: 120px;
-
-
 }
 .girl-1-img {
     width: 400px;
@@ -84,10 +82,10 @@ html {
 }
 .welcome-phrase {
     font-family: 'Montserrat', sans-serif;
-    font-size: 32px;
+    font-size: 45px;
     position: relative;
     float: right;
-    right: 380px;
+    right: 280px;
     top: 50px;
     }
 
