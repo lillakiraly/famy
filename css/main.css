@@ -117,8 +117,20 @@ html {
 .description {
     width: 100%;
 }
-.girl-2-img {
+.gold-deco {
     width: 500px;
+}
+.gold-deco-1 {
+    position: absolute;
+    width: 200px;
+    height: 15px;
+    background-color: #e9d98a;
+    left: 1200px;
+    top: 1150px;
+    z-index: 10;
+}
+.girl-2-img {
+    width: inherit;
     height: auto;
     position: relative;
     left: 900px;
